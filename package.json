@@ -1,0 +1,24 @@
+{
+  "name": "learn-ts",
+  "description": "Proyecto para aprender las bases de Typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start.exercise-1": "tsc-watch --onSuccess \"node dist/basics/exercise-1/app.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomas1V10/learn-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomas1V10/learn-ts/issues"
+  },
+  "homepage": "https://github.com/Tomas1V10/learn-ts#readme",
+  "devDependencies": {
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.0.4"
+  }
+}
